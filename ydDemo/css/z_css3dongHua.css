@@ -1,0 +1,99 @@
+/*1.背景颜色淡变动画*/
+.zCss3_huanDengPian{
+    width:2rem;height:2rem;background:red;
+    animation:huanDengPian 8s infinite;
+    -moz-animation:huanDengPian 8s infinite; /* Firefox */
+    -webkit-animation:huanDengPian 8s infinite; /* Safari and Chrome */
+    -o-animation:huanDengPian 8s infinite; /* Opera */
+}
+@keyframes huanDengPian {
+    0%   {background: red;}
+    25%  {background: yellow;}
+    50%  {background: blue;}
+    75%  {background: green;}
+    100% {background: red;}
+}
+
+@-moz-keyframes huanDengPian /* Firefox */  {
+    0%   {background: red;}
+    25%  {background: yellow;}
+    50%  {background: blue;}
+    75%  {background: green;}
+    100% {background: red;}
+}
+
+@-webkit-keyframes huanDengPian /* Safari 和 Chrome */  {
+    0%   {background: red;}
+    25%  {background: yellow;}
+    50%  {background: blue;}
+    75%  {background: green;}
+    100% {background: red;}
+}
+
+@-o-keyframes huanDengPian /* Opera */  {
+    0%   {background: red;}
+    25%  {background: yellow;}
+    50%  {background: blue;}
+    75%  {background: green;}
+    100% {background: red;}
+}
+
+/*2.向左移动动画*/
+.zCss3_leftMove_fu {width:15rem;height: 0.8rem;line-height:0.8rem;position: relative;overflow: hidden;}
+.zCss3_leftMove{
+    width:60rem;height:auto;position: absolute;
+    animation:leftMove 30s linear infinite;
+    -moz-animation:leftMove 30s linear infinite; /* Firefox */
+    -webkit-animation:leftMove 30s linear infinite; /* Safari and Chrome */
+    -o-animation:leftMove 30s linear infinite; /* Opera */
+}
+.zCss3_leftMove_zi{width:15rem;height:0.8rem;background:red;}
+@keyframes leftMove {
+    0%   {left:0;}
+    100% {left:-45rem;}
+}
+
+@-moz-keyframes leftMove /* Firefox */  {
+    0%   {left:0;}
+    100% {left:-45rem;}
+}
+
+@-webkit-keyframes leftMove /* Safari 和 Chrome */  {
+    0%   {left:0;}
+    100% {left:-45rem;}
+}
+
+@-o-keyframes leftMove /* Opera */  {
+    0%   {left:0;}
+    100% {left:-45rem;}
+}
+
+/*3.向上移动动画*/
+.zCss3_topMove_fu {width:15rem;height: 0.8rem;line-height:0.8rem;position: relative;overflow: hidden;}
+.zCss3_topMove{
+    width:15rem;height:auto;position: absolute;
+    animation:topMove 10s linear infinite;
+    -moz-animation:topMove 10s linear infinite; /* Firefox */
+    -webkit-animation:topMove 10s linear infinite; /* Safari and Chrome */
+    -o-animation:topMove 10s linear infinite; /* Opera */
+}
+.zCss3_topMove_zi{width:15rem;height:0.8rem;background:red;}
+@keyframes topMove {
+    0%   {top:0;}
+    100% {top:-2.4rem;}
+}
+
+@-moz-keyframes topMove /* Firefox */  {
+    0%   {top:0;}
+    100% {top:-2.4rem;}
+}
+
+@-webkit-keyframes topMove /* Safari 和 Chrome */  {
+    0%   {top:0;}
+    100% {top:-2.4rem;}
+}
+
+@-o-keyframes topMove /* Opera */  {
+    0%   {top:0;}
+    100% {top:-2.4rem;}
+}

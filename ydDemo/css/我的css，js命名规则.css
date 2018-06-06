@@ -1,0 +1,51 @@
+/*css命名*/
+/**
+1.基本书写；
+   一级 style_1
+   二级 style_1_1
+   三级 style_1_1_1
+   四级 style_111_1
+   五级 style_111_1_1
+   六级 style_111_1_1_1
+   七级 style_111_111_1
+   ......隔3加_
+
+2.共同书写（相同样式）
+   style_same_1
+   style_same_2
+   style_same_3
+   style_same_4
+   style_same_5
+   ...
+
+3.修改书写;
+   sye_1
+   sye_2
+   sye_3
+   sye_4
+   sye_5
+   ...
+
+ */
+
+
+/*js命名*/
+/**
+1.基本书写；
+   一级 script_1
+   二级 script_2
+   三级 script_3
+   四级 script_4
+   五级 script_5
+   六级 script_6
+   七级 script_7
+   ......
+
+2.修改书写;
+   srp_1
+   srp_2
+   srp_3
+   srp_4
+   srp_5
+   ...
+ */

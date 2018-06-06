@@ -1,0 +1,25 @@
+/*banner图代码开始*/
+/*html{font-size:25px;}*/
+.n_swp_banner{width: 100%;height:auto;position:relative;}
+.swiper-pagination{position:absolute;left:50%;bottom:0;}
+.swiper-slide {
+    /*width: 375px;*/
+    text-align: left;
+    /*font-size: 25px;*/
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: left;
+    -ms-flex-pack: left;
+    -webkit-justify-content: left;
+    justify-content: left;
+    -webkit-box-align: left;
+    -ms-flex-align: left;
+    -webkit-align-items: left;
+    align-items: left;
+}
+/*banner图代码结束*/

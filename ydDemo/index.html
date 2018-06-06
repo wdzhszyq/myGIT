@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head id="html">
+    <!--快乐编程，娱乐注释-->
+    <meta charset="UTF-8">
+    <!--手机端自适应的meta标签-->
+    <!-- 强制让文档与设备的宽度保持1：1 -->
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!-- 忽略页面中的数字识别为电话号码/忽略页面中的邮箱格式为邮箱 -->
+    <meta name="format-detection" content="telephone=no, email=no">
+    <!-- 删除默认的苹果工具栏和菜单栏 -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- 在web app应用下状态条（屏幕顶部条）的颜色 -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <!-- 优先使用 IE 最新版本和 Chrome -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <!--设置作者姓名及联系方式-->
+    <meta name="author" contect="sunlight, wdzhszyq@163.com" />
+    <!-- 启用360浏览器的极速模式(webkit) -->
+    <meta name="renderer" content="webkit">
+    <!-- 页面描述 -->
+    <meta name="description" content="这是一个什么样的页面"/>
+    <!-- 标题前面的图标 -->
+    <link rel="shortcut icon" href="image/img_qiTa/loans_list_icon4.png" type="/image/x-icon">
+    <!--强制页面在当前窗口以独立页面显示/用来防止别人在框架里调用自己的页面-->
+    <meta http-equiv="Window-target" content="_top">
+
+    <!--*****************-->
+    <title>首页</title>
+    <!--共用-->
+    <script src="js/root.js"></script>
+    <script src="js/fastclick.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/ctrlShift.js"></script>  <!--去掉html注释-->
+    <link rel="stylesheet" href="css/z_bass.css">
+    <link rel="stylesheet" href="css/z_common.css">
+
+    <!--*****************-->
+    <!--独立文件引入-->
+    <link rel="stylesheet" href="threFile/swiper/dist/css/swiper.min.css">
+    <script src="threFile/swiper/dist/js/swiper.min.js"></script>
+
+    <!--*****************-->
+    <!--本页css/js-->
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/z_css3dongHua.css">
+    <script src="js/index.js"></script>
+    <!--*****************-->
+
+    <style>
+        #swiper1{width: 13.8rem;height: 150px;}
+        #swiper2{width: 15rem;height: 150px;}
+        .banner_div{background: #e9e9e9;}
+    </style>
+</head>
+<body>
+<!--头部-->
+<header class="h_header h_pos">
+    <div class="h_bead clearfix">
+        <a class="h_a_left font_30 fl"  href="###" ><img src="image/img_common/left_arrows.png" alt="" style="width: 0.32rem;height: 0.56rem;"></a>
+        <p class="h_p_center font_36 fl" >首页</p>
+        <a class="h_a_right font_30 fr" href="###" >下页</a>
+    </div>
+</header>
+<!--主体-->
+<section class="s_section">
+    <div class="swiper-container" id="swiper1">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide banner_div">slider1</div>
+            <div class="swiper-slide banner_div">slider2</div>
+            <div class="swiper-slide banner_div">slider3</div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <!--<div class="swiper-container" id="swiper2">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide banner_div">slider1</div>
+            <div class="swipe r-slide banner_div">slider2</div>
+            <div class="swiper-slide banner_div">slider3</div>
+            <div class="swiper-slide banner_div">slider4</div>
+            <div class="swiper-slide banner_div">slider5</div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>-->
+
+    <div style="margin-top: 5rem;position: relative;">
+        <!--button点击动画-->
+        <div class="zCss3_huanDengPian"></div>
+    </div>
+    <!--向左移动动画-->
+    <div class="zCss3_leftMove_fu" style="margin-bottom: 1rem;">
+        <ul class="zCss3_leftMove clearfix">
+            <li class="fl font_28 fc_fff zCss3_leftMove_zi">122222222222222222222222222222222252</li>
+            <li class="fl font_28 fc_fff zCss3_leftMove_zi">122222222222222222222222222222222252</li>
+            <li class="fl font_28 fc_fff zCss3_leftMove_zi">122222222222222222222222222222222252</li>
+            <li class="fl font_28 fc_fff zCss3_leftMove_zi">122222222222222222222222222222222252</li>
+        </ul>
+    </div>
+    <!--向上移动动画-->
+    <div class="zCss3_topMove_fu">
+        <ul class="zCss3_topMove clearfix">
+            <li class="fl font_28 fc_fff zCss3_topMove_zi">122222222222222222222222222222222252</li>
+            <li class="fl font_28 fc_fff zCss3_topMove_zi">122222222222222222222222222222222252</li>
+            <li class="fl font_28 fc_fff zCss3_topMove_zi">122222222222222222222222222222222252</li>
+            <li class="fl font_28 fc_fff zCss3_topMove_zi">122222222222222222222222222222222252</li>
+        </ul>
+    </div>
+</section>
+
+<!--底部-->
+<footer class="f_footer">
+    <ul class="f_ul clearfix">
+        <li class="fl font_16"><span class="f_ul_li_span"><img src="image/img_common/footer-icon1-a.png" alt="" class="f_ul_img" style="width: 1.02rem;height: 1rem;"></span><span class="f_ul_li_span f_font">首页</span></li>
+        <li class="fl font_16"><span class="f_ul_li_span"><img src="image/img_common/footer-icon2-a.png" alt="" class="f_ul_img pic" style="width: 0.88rem;height: 1.02rem;"></span><span class="f_ul_li_span">商家</span></li>
+        <li class="fl font_16"><span class="f_ul_li_span"><img src="image/img_common/footer-icon3-a.png" alt="" class="f_ul_img pic" style="width: 0.8rem;height: 0.98rem;"></span><span class="f_ul_li_span">我的</span></li>
+    </ul>
+</footer>
+</body>
+<!--窗口-->
+<section class="t_dialog hiddle">
+    <section class="t_box">
+21232
+    </section>
+</section>
+<!--脚本-->
+<!--解决苹果手机点击事件的300ms延迟-->
+<script>
+    $(function() {
+        FastClick.attach(document.body);
+    });
+</script>
+<!--底部切换-->
+<script>
+    $(".f_ul li").click(function () {
+       $(this).find(".f_ul_img").removeClass("pic").closest("li").siblings("li").find(".f_ul_img").addClass("pic");
+       $(this).find(".f_ul_li_span:eq(1)").addClass("f_font").closest("li").siblings("li").find(".f_ul_li_span:eq(1)").removeClass("f_font");
+    })
+</script>
+<!--banner-->
+<script>
+    var swiper1 = new Swiper('#swiper1', {
+        autoplay: true,  //可选选项，自动滑动
+        width: window.innerWidth,  //全屏
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+    });
+    var swiper2 = new Swiper('#swiper2', {
+        effect : 'coverflow',
+        slidesPerView: 3,  //设置容器显示的数量
+        initialSlide :2,  //第几张居中
+        centeredSlides: true,
+        autoplay: false,  //可选选项，自动滑动
+        width: window.innerWidth,  //全屏
+        coverflowEffect: {
+            rotate: -45,
+            stretch: 0,
+            depth: 120,
+            modifier: 1,
+            slideShadows : true,
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+    })
+</script>
+<script>
+    var animateButton = function(e) {
+
+        e.preventDefault;
+        //reset animation
+        e.target.classList.remove('animate');
+
+        e.target.classList.add('animate');
+        setTimeout(function(){
+            e.target.classList.remove('animate');
+        },700);
+    };
+
+    var classname = document.getElementsByClassName("bubbly-button");
+
+    for (var i = 0; i < classname.length; i++) {
+        classname[i].addEventListener('click', animateButton, false);
+    }</script>
+</html>
